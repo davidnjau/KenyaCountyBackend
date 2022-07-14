@@ -3,7 +3,7 @@ services:
   kenya_county:
     image: dnjau/kenya_county_image:latest
     ports:
-      - "8085:8085"
+      - "9000:9000"
     volumes:
       - .:/kenya_county_javabackend
     deploy:
